@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>form</title>
+
+    </head>
+    <body>
+        <h1><strong>FILL THE DETAILS</strong></h1>
+        <hr>
+        <br>
+        <br>
+        <br>
+        <form action="form.php?" method="POST">
+            <div>
+            <label>Firstname</label>
+            <input type="text" name="firstname" placeholder="enter your name">
+            </div>
+            <br>
+            <div>
+                <label>lastname</label>
+                <input type="text" name="lastname" value="surname">
+            </div>
+            <br>
+            <div>
+                <label>Email</label>
+                <input type="email"  name="mail" >
+            </div>
+            <br>
+            <div>
+                <label>age</label>
+                <input type="number" name="age" value="30">
+
+
+            </div>
+            
+            <br>
+            <div>
+                <label>dateofbirth</label>
+                <input type="date" name="birth" >
+            </div>
+            <br>
+            <div>
+                <label>qualification</label>
+                <select name="qualification">
+                <option value="degree" >degree</option>
+                <option value="b.tech">b.tech</option>
+            </select>
+
+            </div>
+            <br>
+            <div>
+                <label>message to hr</label>
+                <input type="textarea" name="message" length="500" width="500px">
+
+            </div>
+            <br>
+            <br>
+            <div>
+                <button>submit</button>
+            </div>
+
+            </form>
+        </form>
+    </body>
+</html>
