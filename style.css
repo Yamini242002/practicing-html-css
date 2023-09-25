@@ -1,0 +1,60 @@
+
+/*   .cont{
+    color:blue;
+    font-style: arial;
+    width:80%;
+    margin:auto;
+    line-height: 1.4em;
+}
+a:hover{
+    color:red;
+}
+a.active{
+    color:green;
+}
+
+h1{
+    
+        font-size: 70px;
+        width:500px;
+        height:500px;
+        border:1px solid red;
+        margin-top: 10px;
+} */
+
+.sub{
+    font-display:bold;
+    color:aliceblue;
+    font-size:15px;
+    margin:0.5em;
+    height:35px;
+    width:110px;
+    border:none;
+    background-color: rgb(200,0,0);
+    padding:5px;
+    cursor:pointer;
+    border-radius: 4px;
+}
+.jo{
+    font-display: bold;
+    color:rgb(41, 118, 211);
+    border:2px solid rgb(41, 118, 211);
+    background-color:white;
+    height:35px;
+    width:55px;
+    font-weight: 150px;
+    cursor:pointer;
+    border-radius: 3px;
+    margin-right: 0.5em;
+} 
+.tw{
+    font-display:bold;
+    color:white;
+    background-color:rgb(41, 118, 211);
+    border:none;
+    height:35px;
+    width:100px;
+    border-radius: 15px;
+    cursor: pointer;
+    
+}
