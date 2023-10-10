@@ -1,0 +1,59 @@
+<html>
+    <head>
+        <title>grid</title>
+        <style>
+            .display{
+                display:grid;
+                grid-template-columns: 100px 200px;
+                margin-top: 30px;
+                height:150px;
+            }
+            .grid-display1{
+              background-color: lightgreen;
+            }
+            .grid-display2{
+                background-color: lightpink;
+            }
+            .free-space{
+                display:grid;
+                grid-template-columns: 100px 1fr;
+                margin-top: 30px;
+                height:100px;
+            }
+
+            .free-space1{
+                display:grid;
+                grid-template-columns: 100px 1fr 1fr;
+                margin-top: 30px;
+                height:20px;
+            }
+        </style>
+    </head>
+    <body>
+        <div style="
+        display:grid; 
+        grid-template-columns:1fr 1fr;
+            ">
+        <div style="background-color: lightblue;">100px</div>
+        <div style="background-color: lightpink;">100px</div>
+        </div>
+
+
+        <div class="display">
+            <div class="grid-display1">100px</div>
+            <div class="grid-display2">200px</div>
+        </div>
+
+        <div class="free-space">
+            <div class="grid-display1">100px</div>
+            <div class="grid-display2">1fr</div>
+        </div>
+
+        <div class="free-space1">
+            <div class="grid-display1">100px</div>
+            <div class="grid-display2">1fr<p>text</p></div>
+            <div class="grid-display1">1fr</div>
+        </div>
+        
+    </body>
+</html>

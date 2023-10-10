@@ -1,0 +1,155 @@
+<html>
+    <head>
+        <title>nested-layout technique</title>
+        <style>
+            .pic{
+                width: 50px;
+                height:50px;
+                border-radius:100px;
+                object-position: center;
+                object-fit:cover ;
+                display: inline-block;
+                margin-top: 7px;
+                margin-bottom: 7px;
+                padding-top: 2x;
+                padding-left:3px;
+            }
+            .info{
+                display: inline-block;
+                border:2px solid red;
+                margin-top: 0px;
+                margin-bottom: 0px;
+                width:84px;
+                vertical-align: top;
+                
+            }
+            .container{
+                display:block;
+                border:3px solid blue;
+                width:150px;
+                vertical-align: top;
+                margin-bottom: 50px;
+            }
+            .container1{
+                display:inline-block;
+                width:150px;
+                vertical-align: top;
+                
+            }
+            .con{
+                display: inline-block;
+            }
+           
+            .profile{
+                display:inline-block;
+                width:60px;
+                border-right: 2px solid blue;
+                vertical-align: top;
+                margin-bottom: 0px;
+               
+                
+            }
+            .pa{
+                border:1px solid red;
+            }
+            
+            .p1{
+
+                color:gray;
+                margin-top: 0px;
+                margin-bottom: 0px;
+            }
+            .p2{
+                color:gray;
+                margin-top: 0px;
+                margin-bottom: 0px;
+            }
+            h3{
+                margin-top: 0px;
+                margin-bottom: 0px;
+                padding-top: 0px;
+                padding-bottom:0px;
+            }
+            
+            .no-borderprofile{
+                display:inline-block;
+                width:60px;
+                
+                vertical-align: top;
+                margin-bottom: 0px;
+               
+                
+            }
+            .no-borderinfo{
+                display: inline-block;
+                margin-top: 0px;
+                margin-bottom: 0px;
+                width:84px;
+                vertical-align: top;
+                
+            }
+            .button{
+                width:80px;
+                color:white;
+                background-color:rgb(41, 118, 211) ;
+                font-size: :14px;
+                padding-top:5px;
+                padding-bottom:5px;
+                border:none;
+                cursor: pointer;
+                border-radius: 5px;
+                top:22px;
+                left:100px;
+                position: relative;
+                display:inline-block;
+              
+            }
+            
+        </style>
+    </head>
+    <body>
+    <div class="container">
+         <div class="profile">
+            <img class="pic" src="C:\Users\yamin\Desktop\gitf\cat1.jpg">
+       
+         </div><div class="info">
+            
+                <h3>oliver</h3><div class="pa">
+            <p class="p1">the cat</p>
+        </div><div class="pa">
+            <p class="p2">popular</p>
+        </div>
+    
+     </div> 
+    </div>
+
+    <!--2nd row-->
+    <div>
+        <div class="container1">
+            <div class="no-borderprofile">
+               <img class="pic" src="C:\Users\yamin\Desktop\gitf\cat1.jpg">
+          
+            </div><div class="no-borderinfo">
+               
+                   <h3>oliver</h3><div class="no-borderpa">
+               <p class="p1">the cat</p>
+           </div><div class="no-borderpa">
+               <p class="p2">popular</p>
+           </div>
+       
+        </div> 
+       </div>
+       <div class="con">
+        <button class="button">Follow</button>
+       </div>
+    </div>
+    
+
+
+       
+    
+    
+       
+
+    </body>
+</html>

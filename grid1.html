@@ -1,0 +1,87 @@
+<html>
+    <head>
+        <title>grid example</title>
+       <style>
+        .hcolumns{
+            display:grid;
+            grid-template-columns: 130px 120px 120px;
+            column-gap: 10px;
+        }
+        .info{
+            background-color: whitesmoke;
+            border:1px solid whitesmoke;
+            padding-left: 3px;
+           
+        }
+        .image{
+            width:130px;
+            height:120px;
+        }
+        h3{
+            margin-top: 0px;
+            margin-bottom: 0px;
+            padding-top: 3px;
+        }
+        .frnd{
+            margin-top:5px;
+            margin-bottom: 0px;
+            padding-left: 1px;
+            font-size: 14px;
+        }
+        .profile{
+                width: 25px;
+                height:25px;
+                border-radius:100px;
+                object-position: center;
+                object-fit:cover ;
+            }
+            .pic-frnd{
+                
+                display: grid;
+                grid-template-columns: 30px 1fr;
+                align-items: center;
+            }
+            .horizontal-rows{
+                display: grid;
+                grid-template-rows: 100px 95px;
+            }
+            .button{
+            margin-left: 3px;
+            color: white;
+            background-color:rgb(41, 118, 211);
+            border:none;
+            cursor:pointer;
+            padding:4px;
+            width:95px;
+            border-radius: 2px;
+            margin-top: 10px;
+
+            
+            }
+        
+       </style> 
+    </head>
+    <body>
+        <div class="hcolumns">
+            <div class="horizontal-rows">
+                <img class="image"  src="C:\Users\yamin\Desktop\gitf\cat.jpg">
+                <div class="info">
+                    <h3>Oliver</h3>
+                    <div class="pic-frnd">
+                        <img class="profile" src="C:\Users\yamin\Desktop\gitf\cat.jpg">
+                        <p class="frnd"> 2 mutual friends</p>
+                    </div>
+                <button class="button">Add Friend</button>
+                    
+                </div>
+            </div>
+           <div><img class="image"  src="C:\Users\yamin\Desktop\gitf\cat.jpg">
+            <h3>oliver</h3>
+           </div>
+            <div><img class="image"  src="C:\Users\yamin\Desktop\gitf\cat.jpg">
+            <h3>oliver</h3>
+           </div>
+        </div>
+        
+    </body>
+</html>
